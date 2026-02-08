@@ -3,219 +3,389 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edwin Brown | Finance &amp; Technology Leader</title>
+  <title>Edwin Brown | Finance, Operations &amp; Technology</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- Floating Nav -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo">EB</a>
+      <a href="#hero" class="nav-logo">
+        <span class="logo-mark">EB</span>
+      </a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section - Dark & Bold -->
   <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-grid"></div>
+    </div>
     <div class="hero-content">
-      <div class="hero-image">
-        <img src="assets/headshot.png" alt="Edwin Brown">
+      <div class="hero-image-wrap">
+        <div class="hero-image">
+          <img src="assets/headshot.png" alt="Edwin Brown">
+        </div>
+        <div class="hero-image-ring"></div>
       </div>
+      <div class="hero-badge">U.S. Army Veteran &bull; Bilingual EN/ES</div>
       <h1>Edwin Brown</h1>
-      <p class="hero-title">Finance &amp; Administrative Services Leader</p>
-      <p class="hero-subtitle">Bilingual (English/Spanish) | 12+ Years Federal Government Experience | Data-Driven Problem Solver</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn btn-primary">View My Projects</a>
-        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      <p class="hero-title">Finance, Operations &amp; Technology Leader</p>
+      <p class="hero-subtitle">12+ years in federal government &amp; military operations. MPA from John Jay College (CUNY). Now building data-driven tools that modernize public administration.</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num">12+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">$5M+</span>
+          <span class="stat-label">Budgets Managed</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Staff Supervised</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Degrees</span>
+        </div>
       </div>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-glow">View Projects</a>
+        <a href="#contact" class="btn btn-outline-light">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
     </div>
   </section>
 
   <!-- About Section -->
   <section class="section" id="about">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <p>I'm a bilingual finance and operations leader with 12+ years of experience managing multi-million dollar public sector budgets, administrative support units, and cross-functional teams.</p>
-        <p>My background spans federal government operations, appropriation-style accounting, and audit-ready financial reporting. I have a proven record of supervising accounting and administrative staff, strengthening internal controls, and improving office systems for better accuracy and efficiency.</p>
-        <p>I'm currently expanding my skill set into <strong>data science, Python programming, and web development</strong> — building real-world applications that bridge finance and technology. I believe the future of public administration lives at the intersection of strong fiscal stewardship and modern data tools.</p>
-        <div class="about-highlights">
-          <div class="highlight">
-            <span class="highlight-number">12+</span>
-            <span class="highlight-label">Years Experience</span>
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">I'm a bilingual finance and operations leader who bridges traditional public administration with modern technology.</p>
+          <p>With 12+ years managing multi-million dollar budgets, supervising 50+ staff, and ensuring audit-ready compliance across federal and military environments, I bring deep operational expertise to every challenge.</p>
+          <p>I'm now expanding into <strong>data science, Python programming, and web development</strong> &mdash; building real applications that automate reporting, visualize data, and modernize how public sector organizations operate.</p>
+          <div class="about-tags">
+            <span class="about-tag">Budget Development</span>
+            <span class="about-tag">Government Compliance</span>
+            <span class="about-tag">Accounting &amp; AP/AR</span>
+            <span class="about-tag">Vendor Management</span>
+            <span class="about-tag">Internal Controls</span>
+            <span class="about-tag">Staff Training</span>
+            <span class="about-tag">Data Automation</span>
+            <span class="about-tag">Risk Management</span>
+            <span class="about-tag">Cross-Agency Coordination</span>
+            <span class="about-tag">Bilingual EN/ES</span>
           </div>
-          <div class="highlight">
-            <span class="highlight-number">2</span>
-            <span class="highlight-label">Languages</span>
+        </div>
+        <div class="about-card-stack">
+          <div class="about-card">
+            <div class="about-card-icon">&#127894;</div>
+            <h3>Military Veteran</h3>
+            <p>U.S. Army &amp; Navy service including overseas deployments, joint operations, and leadership of mission-critical teams.</p>
           </div>
-          <div class="highlight">
-            <span class="highlight-number">DOD</span>
-            <span class="highlight-label">Federal Background</span>
+          <div class="about-card">
+            <div class="about-card-icon">&#127891;</div>
+            <h3>5 Degrees</h3>
+            <p>MPA (John Jay/CUNY), BBA (CSI/CUNY), plus three associate degrees in accounting and business.</p>
           </div>
-          <div class="highlight">
-            <span class="highlight-number">6+</span>
-            <span class="highlight-label">Live Projects</span>
+          <div class="about-card">
+            <div class="about-card-icon">&#128187;</div>
+            <h3>Tech Builder</h3>
+            <p>Python, Streamlit, React, SQL &mdash; building live dashboards and data tools deployed to the web.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Section -->
-  <section class="section section-alt" id="experience">
+  <!-- Experience Section - Dark -->
+  <section class="section section-dark" id="experience">
     <div class="container">
-      <h2 class="section-title">Professional Experience</h2>
+      <div class="section-label light">02 / Experience</div>
+      <h2 class="section-title light">Professional Journey</h2>
       <div class="timeline">
+
         <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">Sep 2021 &mdash; Feb 2025</span>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Jul 2025 &mdash; Present</span>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <h3>Financial Advisor</h3>
+            <p class="timeline-org">New York Life Insurance Company &bull; Syracuse, NY</p>
+            <ul>
+              <li>Conduct client financial needs analysis and prepare compliant NYS DFS documentation</li>
+              <li>Maintain organized client records, disclosures and follow-up files in line with regulatory requirements</li>
+              <li>Use financial and data tools to track activity, create reports and support internal audits</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Sep 2021 &mdash; Feb 2025</span>
+            </div>
             <h3>Project Manager &amp; Financial Supervisor</h3>
             <p class="timeline-org">United States Department of Defense &bull; NYC Metro Area</p>
             <ul>
-              <li>Managed multi-million dollar public sector budgets with appropriation-style accounting</li>
-              <li>Supervised accounting and administrative staff across cross-functional teams</li>
-              <li>Strengthened internal controls and improved financial reporting systems</li>
-              <li>Conducted variance analysis, forecasting, and reconciliation</li>
-              <li>Ensured audit-ready documentation and compliance standards</li>
+              <li>Managed and monitored program and operational budgets over $5M for multi-site activities</li>
+              <li>Supervised 50+ military and civilian staff in administration, logistics, records and finance</li>
+              <li>Prepared monthly and quarterly financial, personnel and activity reports for federal review</li>
+              <li>Maintained internal controls, reconciliations and document trails for government audit standards</li>
+              <li>Directed purchasing, vendor communication and contract support for compliance</li>
             </ul>
           </div>
         </div>
+
         <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">Career Goal</span>
-            <h3>Director of Administrative Services</h3>
-            <p class="timeline-org">Jefferson County Department of Social Services</p>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Dec 2012 &mdash; Jul 2021</span>
+              <span class="timeline-badge military">Military</span>
+            </div>
+            <h3>Non-Commissioned Officer &amp; Team Leader</h3>
+            <p class="timeline-org">United States Army &bull; Various Locations</p>
             <ul>
-              <li>Strong fiscal stewardship and clear reporting</li>
-              <li>Reliable support to program leadership</li>
-              <li>Modernizing operations through data-driven tools and automation</li>
+              <li>Directed mission-critical operations, training schedules, equipment accountability and logistics</li>
+              <li>Maintained 100% asset accountability across multiple deployments and inspections</li>
+              <li>Trained junior personnel in administrative procedures, safety, records and reporting</li>
+              <li>Collected, organized and submitted operational data to higher headquarters on time</li>
             </ul>
           </div>
         </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Mar 2015 &mdash; May 2016</span>
+            </div>
+            <h3>Account Manager</h3>
+            <p class="timeline-org">Rapid Recovery Team &bull; Boca Raton, FL</p>
+            <ul>
+              <li>Coordinated emergency response assignments, client communications and job cost tracking</li>
+              <li>Maintained customer, billing and project records to support finance and collections</li>
+              <li>Produced status reports for management and customers</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Mar 2009 &mdash; Jun 2012</span>
+              <span class="timeline-badge military">Military</span>
+            </div>
+            <h3>Navy Liaison &amp; Supervisor</h3>
+            <p class="timeline-org">U.S. Navy / Joint Chiefs of Staff &bull; Honduras</p>
+            <ul>
+              <li>Coordinated with U.S. and Honduran naval elements on administrative, logistics and reporting</li>
+              <li>Supervised clerical and administrative processes, personnel files and correspondence</li>
+              <li>Ensured accurate translation and transmission of operational information</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section class="section" id="skills">
+  <!-- Education Section -->
+  <section class="section" id="education">
     <div class="container">
-      <h2 class="section-title">Core Capabilities</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <div class="skill-icon">&#128200;</div>
-          <h3>Public Sector Budgeting</h3>
-          <p>Multi-year budgeting, forecasting, variance analysis, and reconciliation</p>
+      <div class="section-label">03 / Education &amp; Credentials</div>
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card featured">
+          <div class="edu-degree">MPA</div>
+          <h3>Master of Public Administration</h3>
+          <p class="edu-focus">Operations &amp; Management</p>
+          <p class="edu-school">John Jay College, City University of New York</p>
+          <span class="edu-year">2024</span>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">&#128209;</div>
-          <h3>Appropriation Accounting</h3>
-          <p>Spending controls, coding accuracy, audit support, and documentation standards</p>
+        <div class="edu-card">
+          <div class="edu-degree">BBA</div>
+          <h3>Bachelor of Business Administration</h3>
+          <p class="edu-school">College of Staten Island, CUNY</p>
+          <span class="edu-year">2022</span>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">&#9881;&#65039;</div>
-          <h3>Administrative Operations</h3>
-          <p>Workload planning, procedure development, cross-unit coordination</p>
+        <div class="edu-card">
+          <div class="edu-degree">AS</div>
+          <h3>Associate Degree</h3>
+          <p class="edu-focus">Accounting &amp; Business/Management</p>
+          <p class="edu-school">Jefferson Community College</p>
+          <span class="edu-year">2021</span>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">&#128101;</div>
-          <h3>Team Supervision</h3>
-          <p>Assigning work, coaching performance, training in policies and processes</p>
+        <div class="edu-card">
+          <div class="edu-degree">BE</div>
+          <h3>Business Engineer</h3>
+          <p class="edu-focus">Business Administration &amp; Management</p>
+          <p class="edu-school">Metropolitan University of Honduras</p>
+          <span class="edu-year">2012</span>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">&#128187;</div>
-          <h3>Office Automation</h3>
-          <p>Excel models, digital filing standards, data quality checks, KPI tracking</p>
-        </div>
-        <div class="skill-card">
-          <div class="skill-icon">&#129309;</div>
-          <h3>Stakeholder Coordination</h3>
-          <p>Working with senior leadership, vendors, oversight bodies, and external partners</p>
+        <div class="edu-card">
+          <div class="edu-degree">AS</div>
+          <h3>Associate of Science</h3>
+          <p class="edu-focus">Accounting</p>
+          <p class="edu-school">Honduran Catholic University</p>
+          <span class="edu-year">2010</span>
         </div>
       </div>
 
-      <h3 class="subsection-title">Technical Skills</h3>
-      <div class="tech-tags">
-        <span class="tag">Python</span>
-        <span class="tag">Streamlit</span>
-        <span class="tag">Data Science</span>
-        <span class="tag">Pandas</span>
-        <span class="tag">Plotly</span>
-        <span class="tag">React</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">HTML/CSS</span>
-        <span class="tag">Git &amp; GitHub</span>
-        <span class="tag">SQL</span>
-        <span class="tag">Excel / VBA</span>
-        <span class="tag">Jupyter Notebooks</span>
-        <span class="tag">Tailwind CSS</span>
-        <span class="tag">Vite</span>
+      <h3 class="subsection-title">Certifications &amp; Licenses</h3>
+      <div class="cert-grid">
+        <div class="cert-item"><span class="cert-dot"></span>Certified Project Manager (CPM)</div>
+        <div class="cert-item"><span class="cert-dot"></span>Certified Risk Manager (CRM)</div>
+        <div class="cert-item"><span class="cert-dot"></span>Securities Industry Essentials (SIE) &mdash; FINRA</div>
+        <div class="cert-item"><span class="cert-dot"></span>Life Insurance License &mdash; NYS DFS</div>
+        <div class="cert-item"><span class="cert-dot"></span>Google Project Management Certificate</div>
+        <div class="cert-item"><span class="cert-dot"></span>IBM Data Science Professional (Python, SQL, ML)</div>
+        <div class="cert-item"><span class="cert-dot"></span>Generative AI &mdash; IBM</div>
+      </div>
+
+      <h3 class="subsection-title">Military Awards</h3>
+      <div class="awards-row">
+        <span class="award">&#127894; Army Achievement Medal</span>
+        <span class="award">&#127757; Global War on Terrorism Medal</span>
+        <span class="award">&#10084;&#65039; Humanitarian Service Medal</span>
+        <span class="award">&#128737;&#65039; National Defense Medal</span>
+        <span class="award">&#127758; Overseas Service Ribbon</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Skills Section - Gradient -->
+  <section class="section section-gradient" id="skills">
+    <div class="container">
+      <div class="section-label light">04 / Technical Skills</div>
+      <h2 class="section-title light">Tech Stack</h2>
+      <div class="tech-grid">
+        <div class="tech-category">
+          <h4>Languages</h4>
+          <div class="tech-pills">
+            <span class="pill">Python</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">SQL</span>
+            <span class="pill">HTML/CSS</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h4>Frameworks</h4>
+          <div class="tech-pills">
+            <span class="pill">Streamlit</span>
+            <span class="pill">React</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">Vite</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h4>Data &amp; Analytics</h4>
+          <div class="tech-pills">
+            <span class="pill">Pandas</span>
+            <span class="pill">Plotly</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Jupyter</span>
+            <span class="pill">Excel / VBA</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h4>Tools</h4>
+          <div class="tech-pills">
+            <span class="pill">Git &amp; GitHub</span>
+            <span class="pill">SharePoint</span>
+            <span class="pill">CRM Systems</span>
+            <span class="pill">Microsoft Office</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h4>Languages Spoken</h4>
+          <div class="tech-pills">
+            <span class="pill accent">English (Native)</span>
+            <span class="pill accent">Spanish (Native)</span>
+            <span class="pill accent">Italian (Basic)</span>
+            <span class="pill accent">Portuguese (Basic)</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section class="section section-alt" id="projects">
+  <section class="section" id="projects">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <div class="section-label">05 / Projects</div>
+      <h2 class="section-title">What I've Built</h2>
       <div class="projects-grid">
 
         <div class="project-card">
-          <div class="project-badge">Live App</div>
+          <div class="project-status live">Live App</div>
           <h3>Analytics Dashboard (Enhanced)</h3>
-          <p>Full-featured data analytics dashboard built with Python and Streamlit. Upload CSV data, visualize trends with Plotly charts, filter data dynamically, and export results in CSV, Excel, or JSON.</p>
+          <p>Full-featured data analytics dashboard. Upload CSV data, visualize trends with Plotly, filter dynamically, and export in CSV, Excel, or JSON.</p>
           <div class="project-tech">
             <span>Python</span><span>Streamlit</span><span>Plotly</span><span>Pandas</span>
           </div>
           <div class="project-links">
-            <a href="https://analytics-dashboard-wdsm85fxqb6yf3dgjgyxre.streamlit.app/" target="_blank" class="btn btn-sm">Live Demo</a>
+            <a href="https://analytics-dashboard-wdsm85fxqb6yf3dgjgyxre.streamlit.app/" target="_blank" class="btn btn-sm btn-primary">Live Demo &#8599;</a>
             <a href="https://github.com/navybrown1/analytics-dashboard" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-badge">Live App</div>
+          <div class="project-status live">Live App</div>
           <h3>Streamlit Analytics Dashboard</h3>
-          <p>Streamlined analytics dashboard for quick data exploration. Clean interface for uploading datasets and generating interactive visualizations on the fly.</p>
+          <p>Streamlined dashboard for quick data exploration. Clean interface for uploading datasets and generating interactive visualizations.</p>
           <div class="project-tech">
             <span>Python</span><span>Streamlit</span><span>Plotly</span>
           </div>
           <div class="project-links">
-            <a href="https://app-analytics-dashboard-bk9byiwxmuvgemwedifjn7.streamlit.app/" target="_blank" class="btn btn-sm">Live Demo</a>
+            <a href="https://app-analytics-dashboard-bk9byiwxmuvgemwedifjn7.streamlit.app/" target="_blank" class="btn btn-sm btn-primary">Live Demo &#8599;</a>
             <a href="https://github.com/navybrown1/streamlit-analytics-dashboard" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-badge">Live Site</div>
+          <div class="project-status live">Live Site</div>
           <h3>Digital Business Card</h3>
-          <p>Interactive digital business card accessible via QR code. Built as a clean, responsive web page hosted on GitHub Pages.</p>
+          <p>Interactive digital business card accessible via QR code. Clean, responsive web page hosted on GitHub Pages.</p>
           <div class="project-tech">
             <span>HTML</span><span>CSS</span><span>JavaScript</span>
           </div>
           <div class="project-links">
-            <a href="https://navybrown1.github.io/edwin-card/" target="_blank" class="btn btn-sm">Live Demo</a>
+            <a href="https://navybrown1.github.io/edwin-card/" target="_blank" class="btn btn-sm btn-primary">Live Demo &#8599;</a>
             <a href="https://github.com/navybrown1/edwin-card" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-badge">Data Science</div>
+          <div class="project-status ds">Data Science</div>
           <h3>SpaceX Falcon 9 Landing Prediction</h3>
-          <p>Data Science capstone project predicting SpaceX Falcon 9 first-stage landing success using machine learning. Includes data collection, wrangling, EDA, and predictive modeling.</p>
+          <p>Capstone project predicting Falcon 9 first-stage landing success with machine learning. Full pipeline from data collection to modeling.</p>
           <div class="project-tech">
             <span>Python</span><span>Jupyter</span><span>Scikit-learn</span><span>SQL</span>
           </div>
@@ -225,9 +395,9 @@
         </div>
 
         <div class="project-card">
-          <div class="project-badge">Web App</div>
+          <div class="project-status web">Web App</div>
           <h3>Gemini Orbital Nexus</h3>
-          <p>Interactive space exploration app with AI-powered Dr. Nexus narration, cinematic orbital visuals, and Google Gemini Live API integration.</p>
+          <p>Interactive space exploration app with AI-powered narration, cinematic visuals, and Google Gemini Live API integration.</p>
           <div class="project-tech">
             <span>React</span><span>TypeScript</span><span>Gemini API</span>
           </div>
@@ -237,9 +407,9 @@
         </div>
 
         <div class="project-card">
-          <div class="project-badge">Web App</div>
+          <div class="project-status web">Web App</div>
           <h3>Photo Portfolio</h3>
-          <p>Modern photo portfolio site built with React and Tailwind CSS. Clean, responsive gallery with smooth transitions.</p>
+          <p>Modern photo portfolio with React and Tailwind CSS. Responsive gallery layout with smooth transitions.</p>
           <div class="project-tech">
             <span>React</span><span>Vite</span><span>Tailwind CSS</span>
           </div>
@@ -252,11 +422,12 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="section" id="contact">
+  <!-- Contact Section - Dark -->
+  <section class="section section-dark" id="contact">
     <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="contact-intro">Interested in working together or have a question? I'd love to hear from you.</p>
+      <div class="section-label light">06 / Contact</div>
+      <h2 class="section-title light">Let's Connect</h2>
+      <p class="contact-intro">Open to opportunities in finance, operations, administration, and technology.</p>
       <div class="contact-grid">
         <a href="mailto:eddyknowledgeispower@gmail.com" class="contact-card">
           <div class="contact-icon">&#9993;&#65039;</div>
@@ -266,12 +437,12 @@
         <a href="https://www.linkedin.com/in/edwinbrownveteran" target="_blank" class="contact-card">
           <div class="contact-icon">&#128279;</div>
           <h3>LinkedIn</h3>
-          <p>linkedin.com/in/edwinbrownveteran</p>
+          <p>in/edwinbrownveteran</p>
         </a>
         <a href="https://github.com/navybrown1" target="_blank" class="contact-card">
           <div class="contact-icon">&#128187;</div>
           <h3>GitHub</h3>
-          <p>github.com/navybrown1</p>
+          <p>navybrown1</p>
         </a>
         <a href="tel:680-297-8978" class="contact-card">
           <div class="contact-icon">&#128222;</div>
@@ -282,27 +453,22 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Edwin Brown. Built with purpose.</p>
-    </div>
+    <p>&copy; 2026 Edwin Brown &bull; Built with purpose</p>
   </footer>
 
   <script>
-    // Navbar scroll effect
+    // Navbar
     window.addEventListener('scroll', () => {
-      const navbar = document.getElementById('navbar');
-      navbar.classList.toggle('scrolled', window.scrollY > 50);
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
     });
 
-    // Mobile menu toggle
+    // Mobile menu
     document.getElementById('navToggle').addEventListener('click', () => {
       document.getElementById('navLinks').classList.toggle('active');
       document.getElementById('navToggle').classList.toggle('active');
     });
 
-    // Close mobile menu on link click
     document.querySelectorAll('.nav-links a').forEach(link => {
       link.addEventListener('click', () => {
         document.getElementById('navLinks').classList.remove('active');
@@ -311,28 +477,27 @@
     });
 
     // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
 
     // Animate on scroll
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1 });
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
 
-    document.querySelectorAll('.skill-card, .project-card, .timeline-item, .contact-card, .highlight').forEach(el => {
-      el.classList.add('animate');
-      observer.observe(el);
+    document.querySelectorAll('.timeline-item, .edu-card, .project-card, .about-card, .contact-card, .tech-category, .hero-stat').forEach(el => {
+      el.classList.add('anim');
+      obs.observe(el);
+    });
+
+    // Stagger animations
+    document.querySelectorAll('.projects-grid .project-card, .edu-grid .edu-card, .hero-stats .hero-stat').forEach((el, i) => {
+      el.style.transitionDelay = `${i * 0.1}s`;
     });
   </script>
 
